@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/nav_main_section"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_task"
+            android:fontFamily="Myriad Pro"
+            android:icon="@drawable/done_black"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="@string/my_task"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/nav_search"
+            android:fontFamily="Myriad Pro"
+            android:icon="@drawable/search_white_24dp"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="@string/search" />
+
+
+        <item
+            android:id="@+id/create_organization"
+            android:icon="@drawable/organization"
+            android:title="@string/create_organization" />
+
+        <item
+            android:id="@+id/create_project"
+            android:icon="@drawable/projects"
+            android:title="@string/create_project" />
+
+        <item
+            android:id="@+id/add_member"
+            android:icon="@drawable/projects"
+            android:title="@string/add_member" />
+
+        <item
+            android:id="@+id/app_bar_switch_organization"
+            android:checkable="true"
+            android:fontFamily="Myriad Pro"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="WORKSPACE INFOTECH LIMITED"
+            app:showAsAction="always">
+        </item>
+
+        <item
+            android:id="@+id/project_item_section"
+            android:drawableRight="@drawable/icon_sidebar_section_toggle"
+            android:drawablePadding="90dp"
+            android:title="Favorites / Recants">
+            <menu>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/nav_settings_section"
+        android:visible="false">
+
+        <item
+            android:id="@+id/nav_view_profile"
+            android:fontFamily="Myriad Pro"
+            android:icon="@drawable/nav_my_profile"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="View Profile" />
+
+        <item
+            android:id="@+id/nav_my_settings"
+            android:fontFamily="Myriad Pro"
+            android:icon="@drawable/baseline_settings_white_24dp"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="Settings"
+            android:titleCondensed="ddf343443fdfdfdf"/>
+        <item
+            android:id="@+id/nav_logout"
+            android:fontFamily="Myriad Pro"
+            android:icon="@drawable/baseline_settings_white_24dp"
+            android:textColor="#FFF6F9FF"
+            android:textSize="15sp"
+            android:title="@string/logout"/>
+
+        <item android:title="Workspace / Organization"
+            android:id="@+id/nav_organization">
+            <menu>
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

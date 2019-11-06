@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF4567C8</color>
+    <color name="propUpHeaderPrimary">#9AB1EC</color>
+    <color name="propUpBodyPrimary">#EAECF0</color>
+    <color name="propUpFooterPrimary">#9AB1EC</color>
+    <color name="colorPrimaryDark">#247CEB</color>
+    <color name="colorAccent">#FF4567C8</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="facebookButtonColor">#FF4567C8</color>
+    <color name="googleButtonColor">#FFC6422A</color>
+
+    <color name="colorBackground">#FF4567C8</color>
+    <color name="colorItem">#FFFFFF</color>
+    <color name="profileItem">#1e1c1c</color>
+    <color name="white">#FFFFFF</color>
+</resources>
